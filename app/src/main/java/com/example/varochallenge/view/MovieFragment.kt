@@ -19,7 +19,7 @@ import com.example.varochallenge.viewmodel.MovieViewModel
 class MovieFragment : Fragment(), MovieAdapter.OnItemClickListener {
 
     companion object {
-        const val TAG = "EmployeeFragment"
+        const val TAG = "MovieFragment"
     }
 
     private lateinit var movieViewModel: MovieViewModel
